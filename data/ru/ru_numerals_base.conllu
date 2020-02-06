@@ -1,0 +1,113 @@
+number	morpheme	lemma	pos	pos2	tags	parent	label	pass	pass2	additional	result	main													
+																									
+1	один	один	NUM	NUM	Gen=masc	0	root			1	1														
+																									
+1	одна	один	NUM	NUM	Gen=fem	0	root			1	1	no													
+																									
+1	два	два	NUM	NUM	Gen=masc	0	root			2	2														
+																									
+1	две	два	NUM	NUM	Gen=fem	0	root			2	2	no													
+																									
+1	три	три	NUM	NUM		0	root			3	3														
+																									
+1	четыре	четыре	NUM	NUM		0	root			4	4														
+																									
+1	пять	пять	NUM	NUM		0	root			5	5														
+																									
+1	шесть	шесть	NUM	NUM		0	root			6	6														
+																									
+1	семь	семь	NUM	NUM		0	root			7	7														
+																									
+1	восемь	восемь	NUM	NUM		0	root			8	8														
+																									
+1	девять	девять	NUM	NUM		0	root			9	9														
+																									
+1	десять	десять	NUM	NUM		0	root			10	10														
+																									
+1	один	один	NUM	NUM		0	root		spaceAfter=no	1	11														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	две	два	NUM	NUM		0	root		spaceAfter=no	2	12														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	три	три	NUM	NUM		0	root		spaceAfter=no	3	13														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	четыр	четыре	NUM	NUM		0	root		spaceAfter=no	4	14														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	пят	пять	NUM	NUM		0	root		spaceAfter=no	5	15														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	шест	шесть	NUM	NUM		0	root		spaceAfter=no	6	16														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	сем	семь	NUM	NUM		0	root		spaceAfter=no	7	17														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	восем	восемь	NUM	NUM		0	root		spaceAfter=no	8	18														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	девят	девять	NUM	NUM		0	root		spaceAfter=no	9	19														
+2	надцать	-надцать	suffix	NUM		1	affix			10															
+																									
+1	два	два	NUM	NUM		0	root		spaceAfter=no	2	20														
+2	дцать	-дцать	suffix	NUM		1	affix			10															
+																									
+1	три	три	NUM	NUM		0	root		spaceAfter=no	3	30														
+2	дцать	-дцать	suffix	NUM		1	affix			10															
+																									
+1	сорок	сорок	NUM	NUM		0	root			40	40														
+																									
+1	пять	пять	NUM	NUM		2	compound		spaceAfter=no	5															
+2	десят	десять	NUM	NUM		0	root			10	50														
+																									
+1	шесть	шесть	NUM	NUM		2	compound		spaceAfter=no	6															
+2	десят	десять	NUM	NUM		0	root			10	60														
+																									
+1	семь	семь	NUM	NUM		2	compound		spaceAfter=no	7															
+2	десят	десять	NUM	NUM		0	root			10	70														
+																									
+1	восемь	восемь	NUM	NUM		2	compound		spaceAfter=no	8															
+2	десят	десять	NUM	NUM		0	root			10	80														
+																									
+1	девя	девять	NUM	NUM		2	compound		spaceAfter=no	9															
+2	носто	десять	NUM	NUM		0	root			10	90														
+																									
+1	сто	сто	NUM	NUM		0	root			100	100														
+																									
+1	две	два	NUM	NUM		2	compound		spaceAfter=no	2															
+2	сти	сто	NUM	NUM		0	root			100	200														
+																									
+1	три	три	NUM	NUM		2	compound		spaceAfter=no	3															
+2	ста	сто	NUM	NUM		0	root			100	300														
+																									
+1	четыре	четыре	NUM	NUM		2	compound		spaceAfter=no	4															
+2	ста	сто	NUM	NUM		0	root			100	400														
+																									
+1	пять	пять	NUM	NUM		2	compound		spaceAfter=no	5															
+2	сот	сто	NUM	NUM		0	root			100	500														
+																									
+1	шесть	шесть	NUM	NUM		2	compound		spaceAfter=no	6															
+2	сот	сто	NUM	NUM		0	root			100	600														
+																									
+1	семь	семь	NUM	NUM		2	compound		spaceAfter=no	7															
+2	сот	сто	NUM	NUM		0	root			100	700														
+																									
+1	восемь	восемь	NUM	NUM		2	compound		spaceAfter=no	8															
+2	сот	сто	NUM	NUM		0	root			100	800														
+																									
+1	девять	девять	NUM	NUM		2	compound		spaceAfter=no	9															
+2	сот	сто	NUM	NUM		0	root			100	900														
+																									
+1	тысяча	тысяча	NUM	NUM	Num=1	0	root			1000	1000														
+																									
+1	тысячи	тысяча	NUM	NUM	Num=2	0	root			1000	1000	no													
+																									
+1	тысяч	тысяча	NUM	NUM	Num=5	0	root			1000	1000	no													
+																									
+1	миллион	миллион	NUM	NUM	Num=1	0	root			1000000	1000000														
+																									
+1	миллиона	миллион	NUM	NUM	Num=2	0	root			1000000	1000000	no													
+																									
+1	миллионов	миллион	NUM	NUM	Num=5	0	root			1000000	1000000	no													
