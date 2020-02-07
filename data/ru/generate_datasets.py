@@ -96,37 +96,3 @@ def convert_prod(x, y):
     tree_r = convert_integer_to_tree(y)
     tree_lm = merge_trees(tree_l, tree_m, is_arc_l2r=False, arc_label='larg')
     return merge_trees(tree_lm, tree_r, is_arc_l2r=True, arc_label='rarg'), convert_integer_to_tree(x*y) 
-
-
-src = open('src_add.txt', 'w')
-trg = open('trg_add.txt', 'w')
-
-max_range = 100
-for i in range(1000):
-    x = 1 + np.random.randint(max_range - 1)
-    y = 1 + np.random.randint(max_range - 1)
-    z = x + y
-    inp, out = convert_sum(x, y)
-    s = f'# {x} + {y}\n' + '\n'.join([t.__repr__() for t in inp.tokens]) + '\n\n'
-    t = f'# {z}\n' + '\n'.join([t.__repr__() for t in out.tokens]) + '\n\n'
-    src.writelines([s])
-    trg.writelines([t])
-src.close()
-trg.close()
-
-
-src = open('src_mult.txt', 'w')
-trg = open('trg_mult.txt', 'w')
-
-max_range = 100
-for i in range(1000):
-    x = 1 + np.random.randint(max_range - 1)
-    y = 1 + np.random.randint(max_range - 1)
-    z = x * y
-    inp, out = convert_prod(x, y)
-    s = f'# {x} * {y}\n' + '\n'.join([t.__repr__() for t in inp.tokens]) + '\n\n'
-    t = f'# {z}\n' + '\n'.join([t.__repr__() for t in out.tokens]) + '\n\n'
-    src.writelines([s])
-    trg.writelines([t])
-src.close()
-trg.close()
