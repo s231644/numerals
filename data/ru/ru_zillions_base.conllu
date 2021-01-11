@@ -1,0 +1,117 @@
+number	morpheme	lemma	pos	pos2	tags	parent	label	pass	pass2	additional	result	main													
+																									
+1	м	ми-	NUM	NUM		2	compound		spaceAfter=no	1															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+1*3)														
+																									
+1	б	би-	NUM	NUM		2	compound		spaceAfter=no	2															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+2*3)														
+																									
+1	тр	три-	NUM	NUM		2	compound		spaceAfter=no	3															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+3*3)														
+																									
+1	квадр	квадр-	NUM	NUM		2	compound		spaceAfter=no	4															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+4*3)														
+																									
+1	квинт	квинт-	NUM	NUM		2	compound		spaceAfter=no	5															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+5*3)														
+																									
+1	секст	секст-	NUM	NUM		2	compound		spaceAfter=no	6															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+6*3)														
+																									
+1	септ	септ-	NUM	NUM		2	compound		spaceAfter=no	7															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+7*3)														
+																									
+1	окт	окт-	NUM	NUM		2	compound		spaceAfter=no	8															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+8*3)														
+																									
+1	нон	нон-	NUM	NUM		2	compound		spaceAfter=no	9															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+9*3)														
+																									
+1	дец	деци-	NUM	NUM		2	compound		spaceAfter=no	10															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+10*3)														
+																									
+1	ви	би-	NUM	NUM		3	compound		spaceAfter=no	2															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+20*3)														
+																									
+1	три	три-	NUM	NUM		3	compound		spaceAfter=no	3															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+30*3)														
+																									
+1	квадра	квадр-	NUM	NUM		3	compound		spaceAfter=no	4															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+40*3)														
+																									
+1	квинква	квинт-	NUM	NUM		3	compound		spaceAfter=no	5															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+50*3)														
+																									
+1	секса	секст-	NUM	NUM		3	compound		spaceAfter=no	6															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+60*3)														
+																									
+1	септуа	септ-	NUM	NUM		3	compound		spaceAfter=no	7															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+70*3)														
+																									
+1	окто	окт-	NUM	NUM		3	compound		spaceAfter=no	8															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+80*3)														
+																									
+1	нона	нон-	NUM	NUM		3	compound		spaceAfter=no	9															
+2	гинт	-гинт	suffix	NUM		1	affix		spaceAfter=no	10															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+90*3)														
+																									
+1	цент	цент-	NUM	NUM		2	compound		spaceAfter=no	100															
+2	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+100*3)														
+																									
+1	ду	ду-	NUM	NUM		2	compound		spaceAfter=no	2															
+2	цент	цент-	NUM	NUM		3	compound		spaceAfter=no	100
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+200*3)														
+																									
+1	тре	три-	NUM	NUM		2	compound		spaceAfter=no	3															
+2	гент	цент-	NUM	NUM		3	compound		spaceAfter=no	100
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+300*3)														
+																									
+1	квадри	квадр-	NUM	NUM		2	compound		spaceAfter=no	4															
+2	гент	цент-	NUM	NUM		3	compound		spaceAfter=no	100															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+400*3)														
+																									
+1	квин	квинт-	NUM	NUM		2	compound		spaceAfter=no	5															
+2	гент	цент-	NUM	NUM		3	compound		spaceAfter=no	100															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+500*3)														
+																									
+1	сес	секст-	NUM	NUM		2	compound		spaceAfter=no	6															
+2	цент	цент-	NUM	NUM		3	compound		spaceAfter=no	100															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+600*3)														
+																									
+1	септин	септ-	NUM	NUM		2	compound		spaceAfter=no	7															
+2	гент	цент-	NUM	NUM		3	compound		spaceAfter=no	100															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+700*3)														
+																									
+1	окто	окт-	NUM	NUM		2	compound		spaceAfter=no	8															
+2	гент	цент-	NUM	NUM		3	compound		spaceAfter=no	100															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+800*3)														
+																									
+1	нон	нон-	NUM	NUM		2	compound		spaceAfter=no	9															
+2	гент	цент-	NUM	NUM		3	compound		spaceAfter=no	100															
+3	иллион	-иллион	NUM	NUM		0	root			10^3	10^(3+900*3)														
+																									
+1	ун	ун-	NUM	NUM		0	root			1	1														
+																									
+1	дуо	ду-	NUM	NUM		0	root			2	2														
+																									
+1	тре	три-	NUM	NUM		0	root			3	3														
+																									
+1	кваттуор	кватр-	NUM	NUM		0	root			4	4														
+																									
+1	квин	квинт-	NUM	NUM		0	root			5	5														
+																									
+1	секс	секст-	NUM	NUM		0	root			6	6														
+																									
+1	септен	септ-	NUM	NUM		0	root			7	7														
+																									
+1	окто	окт-	NUM	NUM		0	root			8	8														
+																									
+1	новем	нон-	NUM	NUM		0	root			9	9														
+
